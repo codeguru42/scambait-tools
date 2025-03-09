@@ -1,10 +1,11 @@
 [project]
 name = "scambait-tools"
 version = "0.1.0"
-description = "Add your description here"
+description = "This project contains several python scripts that can be used against scammers amd scammer websites."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "faker>=37.0.0",
     "requests>=2.32.3",
 ]
+license = {text = "WTFPL"}
