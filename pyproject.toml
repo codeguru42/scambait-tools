@@ -11,3 +11,8 @@ dependencies = [
     "typer>=0.15.2",
 ]
 license = {text = "WTFPL"}
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
