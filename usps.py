@@ -8,7 +8,7 @@ def main(url: str):
     }
     response = httpx.get(url, headers=headers)
     typer.echo(f"Status code: {response.status_code}")
-    typer.echo(f"Content: {response.text[:100]}...")
+    typer.echo(f"Content: {response.text}")
 
 
 if __name__ == "__main__":
